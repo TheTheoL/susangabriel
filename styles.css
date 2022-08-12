@@ -1,0 +1,195 @@
+* { 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    margin: 0 20px;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+:root {
+    --primary: hsla(204, 31%, 13%, 0.85);
+    --secondary: hsla(200, 33%, 34%, 0.85);
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Uchen', serif;
+    
+}
+
+/* nav */
+img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.navbar {
+    min-height: 7vh;
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+    background: white;
+    opacity: 0.75;
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar span {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.name {
+    
+    font-size: 2rem;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 1rem;
+}
+
+.intro-text {
+    font-size: 1.5rem;
+}
+
+.links {
+    padding-left: 50rem;
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+li {
+    padding-left: 2rem;
+    position: relative;
+}
+
+
+
+.links a {
+        font-family: 'Noto Sans', sans-serif;
+        color: black;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1.5rem;
+        padding-left: 15px;
+}
+.links a:hover {
+    color: rgb(70, 68, 68);
+    text-decoration: dotted;
+}
+
+.nav-items {
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+}
+
+/* banner */
+
+.banner {
+    height: 20vh;
+    width: auto;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    place-items: center;
+    place-content: center;
+    background-image: linear-gradient(135deg, var(--primary), var(--secondary)),
+    url('./images/banner.jpg');
+    height: 25;
+    width: 25%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.banner-contents {
+    text-align: left;
+    justify-content: left;
+    
+}
+
+/* About */
+.section-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.about-section {
+    
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 2rem;
+    width: 60%;
+    height: auto;
+}
+
+
+.about {
+    padding: 2rem;
+    text-align: center;
+    background-color: rgb(101, 175, 239);
+}
+
+.quote {
+    padding: 2rem;
+    text-align: center;
+    background-color: rgb(62, 173, 10);
+}
+
+.about p,
+.quote p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+/* Vita */
+.vita-section {
+    margin: 30px 0;
+    background: rgb(209, 107, 107);
+    height: 60vh;
+    display: flex;
+    
+}
+.vita-section h1 {
+    margin: 0 auto;
+}
+
+/* Publications */
+.publication-section {
+    margin: 30px 0;
+    background: rgb(89, 148, 230);
+    height: 60vh;
+    display: flex;
+    
+}
+.publication-section h1 {
+    margin: 0 auto;
+}
+
+
+
+
+
