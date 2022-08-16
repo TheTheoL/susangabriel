@@ -25,9 +25,20 @@ main {
 
 h1,
 h2,
-h3 {
+ {
     font-family: 'Uchen', serif;
     
+}
+
+p,
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+ul {
+    list-style-type: none;
 }
 
 /* nav */
@@ -55,7 +66,6 @@ img {
 }
 
 .name {
-    
     font-size: 2rem;
     color: black;
     font-family: 'Montserrat', sans-serif;
@@ -149,13 +159,13 @@ li {
 .about {
     padding: 2rem;
     text-align: center;
-    background-color: rgb(101, 175, 239);
+    
 }
 
 .quote {
     padding: 2rem;
     text-align: center;
-    background-color: rgb(62, 173, 10);
+    
 }
 
 .about p,
@@ -167,15 +177,61 @@ li {
 
 /* Vita */
 .vita-section {
-    margin: 30px 0;
-    background: rgb(209, 107, 107);
-    height: 60vh;
     display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    height: auto;
+    
     
 }
 .vita-section h1 {
     margin: 0 auto;
 }
+
+.vita-left {
+    width: 50%;
+    align-content: center;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.vita-left p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.education-ul li {
+    text-decoration: none;
+}
+
+.vita-left h3,
+.vita-right h3 {
+    margin-top: 1.5rem;
+}
+
+
+.vita-right {
+    width: 50%;
+    align-content: center;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.vita-right p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Publications */
 .publication-section {
