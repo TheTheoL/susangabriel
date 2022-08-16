@@ -24,7 +24,7 @@ main {
 }
 
 h1,
-h2,
+h2
  {
     font-family: 'Uchen', serif;
     
@@ -207,6 +207,10 @@ li {
 .vita-left h3,
 .vita-right h3 {
     margin-top: 1.5rem;
+}
+
+.books {
+    margin: 2rem 0;
 }
 
 
